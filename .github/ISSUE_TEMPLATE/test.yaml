@@ -1,12 +1,12 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: Terra Station New Chain Form
+description: Provide all information to add a new chain to Terra Station
+title: "[NewChain]: "
+labels: ["new-form"]
 body:
-  - type: markdown
+  - type: input
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
+      value:
+        What's the name of the chain?
   - type: input
     id: contact
     attributes:
