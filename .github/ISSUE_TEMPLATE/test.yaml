@@ -7,7 +7,7 @@ body:
     id: chainName
     attributes:
       label: What's the name of the chain?
-      description: Example: Terra
+      description: "Example: Terra"
       placeholder: Terra
     validations:
       required: true
