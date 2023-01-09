@@ -4,9 +4,13 @@ title: "[NewChain]: "
 labels: ["new-form"]
 body:
   - type: input
+    id: chainName
     attributes:
-      value:
-        What's the name of the chain?
+      label: What's the name of the chain?
+      description: Example: Terra
+      placeholder: Terra
+    validations:
+      required: true
   - type: input
     id: contact
     attributes:
